@@ -1,0 +1,80 @@
+body {
+  background-image: linear-gradient(to bottom right, #bcffff, #3b3bff);
+  font-weight: bold;
+}
+
+h1,
+h3 {
+  padding: 8px;
+  margin: 0px;
+  text-align: center;
+}
+
+.outerForm {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.adjust {
+  width: 50%;
+  height: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#6565eb, #0c0c76);
+  border-radius: 20px;
+  padding: 50px 0px;
+}
+
+.authForm {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formInput {
+  display: block;
+  width: 70%;
+  margin: 10px 0px;
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  font-size: 1rem;
+  background-color: #1b1b70;
+  color: black;
+}
+
+.formInput:focus {
+  outline: none;
+}
+
+.button {
+  width: 15%;
+  background-color: #1b1b70;
+  border: none;
+  font-size: 1rem;
+  padding: 8px;
+  border-radius: 15px;
+  margin-top: 30px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.button:active,
+.button:focus {
+  outline: none;
+}
+
+.errorMsg {
+  background-color: red;
+}

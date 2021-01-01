@@ -1,0 +1,69 @@
+.chatPage {
+  background-image: linear-gradient(#6565eb, #0c0c76);
+  width: 80vw;
+  height: 70vh;
+  margin: 50px auto;
+  margin-bottom: 0px;
+}
+
+#chatContainer {
+  width: 100%;
+  height: 90%;
+  margin: auto;
+  border-radius: 30px;
+  overflow-y: auto;
+}
+
+#sendContainer {
+  display: none;
+  position: sticky;
+  bottom: 0;
+  left: 0%;
+}
+
+.message {
+  padding: 5px;
+  margin: 5px 20px;
+  border-radius: 5px;
+  min-width: fit-content;
+  max-width: 40%;
+}
+
+.left {
+  background-color: rgb(73, 205, 209);
+  float: left;
+  clear: both;
+}
+
+.right {
+  background-color: rgb(235, 117, 33);
+  float: right;
+  clear: both;
+}
+
+.previous {
+  padding: 5px 0px;
+  margin: 10px 0px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(94, 212, 212);
+}
+
+#send {
+  position: sticky;
+  bottom: 0%;
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+#send input {
+  width: 88%;
+  height: 20px;
+}
+
+#send button img {
+  width: 30px;
+  height: 30px;
+  filter: grayscale(100%);
+}
