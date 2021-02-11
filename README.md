@@ -1,6 +1,6 @@
 # ChatArc
 
-This is an one to one chat web application built using [NodeJS, ExpressJS and MongoDB(mongoose)] in BACKEND and [ReactJS and Socket IO] in FRONTEND.
+This is an one to one chat web application built using [ NodeJS, ExpressJS and MongoDB(mongoose) ] in BACKEND and [ ReactJS and Socket IO ] in FRONTEND.
 
 ### It has following features enclosed in it:
 #### 1] Sign up with unique username
